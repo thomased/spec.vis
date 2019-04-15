@@ -43,7 +43,7 @@
 #'
 #' @author Thomas White \email{thomas.white026@@gmail.com}
 #'
-specvis_search <- function(..., return.spectra = FALSE) {
+specvis_search <- function(..., return.spectra = FALSE, plot = FALSE) {
 
   # This is a proof-of-concept. Probably a way to do the equivalent without dplyr, which would be ideal.
 

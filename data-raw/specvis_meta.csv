@@ -210,10 +210,10 @@ nymphalis.xanthomelas.1,380,thomas_white,thomas.white026@gmail.com,eguchi_et_al_
 nymphalis.xanthomelas.2,460,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,nymphalis,xanthomelas,NA,NA,NA
 nymphalis.xanthomelas.3,500,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,nymphalis,xanthomelas,NA,NA,NA
 nymphalis.xanthomelas.4,560,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,nymphalis,xanthomelas,NA,NA,NA
-polygonia.c-album.1,380,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,polygonia,c-album,NA,NA,NA
-polygonia.c-album.2,520,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,polygonia,c-album,NA,NA,NA
-polygonia.c-album.3,560,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,polygonia,c-album,NA,NA,NA
-polygonia.c-album.4,620,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,polygonia,c-album,NA,NA,NA
+polygonia.calbum.1,380,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,polygonia,c-album,NA,NA,NA
+polygonia.calbum.2,520,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,polygonia,c-album,NA,NA,NA
+polygonia.calbum.3,560,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,polygonia,c-album,NA,NA,NA
+polygonia.calbum.4,620,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,polygonia,c-album,NA,NA,NA
 fabriciana.adippe.1,380,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,fabriciana,adippe,NA,NA,NA
 fabriciana.adippe.2,460,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,fabriciana,adippe,NA,NA,NA
 fabriciana.adippe.3,520,thomas_white,thomas.white026@gmail.com,eguchi_et_al_1982,10.1016/0022-1910(82)90145-7,erg,absorbance,TRUE,fabriciana,adippe,NA,NA,NA
@@ -274,3 +274,8 @@ tenthredo.campestris.1,328,thomas_white,thomas.white026@gmail.com,peitsch_et_al_
 tenthredo.campestris.2,458,thomas_white,thomas.white026@gmail.com,peitsch_et_al_1992,10.1007/BF00190398,intcell,absorbance,TRUE,tenthredo,campestris,NA,NA,NA
 tenthredo.campestris.3,537,thomas_white,thomas.white026@gmail.com,peitsch_et_al_1992,10.1007/BF00190398,intcell,absorbance,TRUE,tenthredo,campestris,NA,NA,NA
 tenthredo.campestris.4,602,thomas_white,thomas.white026@gmail.com,peitsch_et_al_1992,10.1007/BF00190398,intcell,absorbance,TRUE,tenthredo,campestris,NA,NA,NA
+eristalis.tenax.1,330,thomas_white,thomas.white026@gmail.com,horridge_et_al_1975,10.1098/rspb.1975.0089,intcell,absorbance,TRUE,eristalis,tenax,NA,NA,NA
+eristalis.tenax.2,340,thomas_white,thomas.white026@gmail.com,horridge_et_al_1975,10.1098/rspb.1975.0089,intcell,absorbance,TRUE,eristalis,tenax,NA,NA,NA
+eristalis.tenax.3,460,thomas_white,thomas.white026@gmail.com,horridge_et_al_1975,10.1098/rspb.1975.0089,intcell,absorbance,TRUE,eristalis,tenax,NA,NA,NA
+eristalis.tenax.4,540,thomas_white,thomas.white026@gmail.com,horridge_et_al_1975,10.1098/rspb.1975.0089,intcell,absorbance,TRUE,eristalis,tenax,NA,NA,NA
+eristalis.tenax.ach.1,420,thomas_white,thomas.white026@gmail.com,horridge_et_al_1975,10.1098/rspb.1975.0089,intcell,absorbance,TRUE,eristalis,tenax,NA,NA,NA
