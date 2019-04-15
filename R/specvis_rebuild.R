@@ -12,9 +12,9 @@
 #'
 specvis_rebuild <- function() {
 
-  specvis_meta <- read.csv("data-raw/specvis_meta.csv", stringsAsFactors = FALSE)
-  specvis_spectra <- read.csv("data-raw/specvis_spectra.csv", stringsAsFactors = FALSE)
-  specvis_dict <- read.csv("data-raw/specvis_dict.csv", stringsAsFactors = FALSE)
+  specvis_meta <- read.csv("data-raw/specvis_meta.csv", stringsAsFactors = FALSE, check.names = FALSE)
+  specvis_spectra <- read.csv("data-raw/specvis_spectra.csv", stringsAsFactors = FALSE, check.names = FALSE)
+  specvis_dict <- read.csv("data-raw/specvis_dict.csv", stringsAsFactors = FALSE, check.names = FALSE)
 
   save(specvis_meta, file = "data/specvis_meta.rda", compress = 'xz')
   save(specvis_spectra, file = "data/specvis_spectra.rda", compress = 'xz')
