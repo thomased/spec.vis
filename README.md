@@ -42,9 +42,11 @@ Contributions of spectra to the package are most welcome. There are a few ways t
   - Append your spectra to the `data-raw/specvis_spectra.csv` file, and complete all metadata fields in the `data-raw/specvis_meta.csv` file. Spectra should follow the naming convention `<species>_<genus>.<integer>`, where `<integer>` begins at 1 and proceeds from the shortest- to longest- wavelength sensitive receptor.
   - Run the function `specvis_rebuild()` to rebuild the database (i.e. to save the raw data as `.rda` files.
   - Commit and push your changes, and submit a pull request.
+  
 -  **via email, v1**  
   - Take a look at the structure of the package's spectral data (`data(specvis_spectra)`) and metadata (`data(specvis_meta)`).
   - [Email me](mailto:thomas.white@sydney.edu.au) your data in as similar a format as possible.
+  
 - **via email, v2**  
   - [Email me](mailto:thomas.white@sydney.edu.au) a paper containing data that you'd like added (containing either lambda-max values or plotted absorbance curves, at a minimum). 
 
