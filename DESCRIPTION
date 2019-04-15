@@ -1,0 +1,29 @@
+Package: spectra.visual
+Type: Package
+Title: Spectral Sensitivity Database
+Description: A database of photoreceptor absorbance and ocular transmittion spectra and their associated metadata.
+Version: 0.1.0
+Authors@R: c(person("Thomas", "White", role = c("aut", "cre"),
+    email = "thomas.white026@gmail.com",
+    comment = c(ORCID = "0000-0002-3976-1734")),
+    person("Hugo", "Gruson", role = "aut",
+    email = "hugo.gruson+R@normalesup.org",
+    comment = c(ORCID = "0000-0002-4094-1476")),
+    person("Rafael", "Maia", role = "aut",
+    email = "rm72@zips.uakron.edu",
+    comment = c(ORCID = "0000-0002-7563-9795")))
+Maintainer: Thomas E. White <thomas.white026@gmail.com>
+License: GPL (>= 2)
+LazyData: FALSE
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+Depends:
+  R (>= 3.2.0)
+Imports:
+  utils,
+  dplyr
+Suggests:
+    knitr,
+    testthat
+VignetteBuilder: knitr
+Language: en-GB

@@ -1,0 +1,14 @@
+variable,type,description
+spec_name,character,unique spectrum ID
+contributor,character,name of the contributor of the spectrum
+contributor_email,character,email address of the contributor of the spectrum
+citation_abbrev,character,abbreviated citation details
+doi,character,doi of the primary publication
+method,character,method used to estimate the spectrum in the original publication
+type,character,"type of spectrum: 'absorbance', 'transmission'"
+modelled,boolean,whether the spectrum is the result of template-based modelling
+genus,character,genus
+species,character,species
+sub,character,subspecies or sub-classification
+sex,character,sex
+note,character,miscelaneous notes
