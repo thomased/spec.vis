@@ -32,15 +32,15 @@
 #'
 #' @examples
 #' \dontrun{
-#'
+#' 
 #' # Query the database to see how many spectra from the genus 'bombus'
 #' # are available, and examine their metadata
 #' specvis_search(genus == "bombus")
-#'
+#' 
 #' # Save the corresponding spectra to an object
 #' bombus_vis <- specvis_search(genus == "bombus", return.spectra = TRUE)
 #' }
-#'
+#' 
 #' @author Thomas White \email{thomas.white026@@gmail.com}
 #'
 specvis_search <- function(..., return.spectra = FALSE) {
