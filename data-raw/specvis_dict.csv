@@ -1,5 +1,6 @@
 variable,type,description
 spec_name,character,unique spectrum ID
+lmax,numeric,wavelength of peak absorbance
 contributor,character,name of the contributor of the spectrum
 contributor_email,character,email address of the contributor of the spectrum
 citation_abbrev,character,abbreviated citation details

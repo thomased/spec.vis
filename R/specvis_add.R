@@ -10,9 +10,10 @@
 #'
 #' @keywords internal
 #'
-specvis_add <- function(data, genus, species, citation_abbrev, doi, method, modelled = TRUE, sub = NA, sex = NA, note = NA) {
+specvis_add <- function(data, lmax, genus, species, citation_abbrev, doi, method, modelled = TRUE, sub = NA, sex = NA, note = NA) {
 
   new_meta <- data.frame(spec_name = names(data)[2:ncol(data)],
+                         lmax = lmax,
                     contributor = "thomas_white",
                     contributor_email = "thomas.white026@gmail.com",
                     citation_abbrev = citation_abbrev,

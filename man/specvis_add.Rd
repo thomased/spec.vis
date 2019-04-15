@@ -4,7 +4,7 @@
 \alias{specvis_add}
 \title{Add modelled sensitivity data}
 \usage{
-specvis_add(data, genus, species, citation_abbrev, doi, method,
+specvis_add(data, lmax, genus, species, citation_abbrev, doi, method,
   modelled = TRUE, sub = NA, sex = NA, note = NA)
 }
 \description{
