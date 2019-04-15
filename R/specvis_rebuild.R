@@ -20,5 +20,5 @@ specvis_rebuild <- function() {
   save(specvis_spectra, file = "data/specvis_spectra.rda", compress = 'xz')
   save(specvis_dict, file = "data/specvis_dict.rda", compress = 'xz')
 
-  print(paste0("Databse contains data from ", length(unique(sub("(^[^.]+[.][^.]+)(.+$)", "\\1", specvis_meta$spec_name))), " species"))
+  print(paste0("Databse contains ", ncol(specvis_spectra), " spectra from ", length(unique(sub("(^[^.]+[.][^.]+)(.+$)", "\\1", specvis_meta$spec_name))), " species"))
 }

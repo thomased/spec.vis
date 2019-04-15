@@ -1,9 +1,10 @@
 Package: spectra.visual
 Type: Package
-Title: Spectral Sensitivity Database
-Description: A database of photoreceptor absorbance and ocular transmittion spectra and their associated metadata.
+Title: A Spectral Sensitivity and Ocular Transmission Database
+Description: A database of photoreceptor absorbance and ocular transmission spectra and their associated metadata.
 Version: 0.1.0
-Authors@R: c(person("Thomas", "White", role = c("aut", "cre"),
+Date: Sys.Date()
+Authors@R: c(person("Thomas E.", "White", role = c("aut", "cre"),
     email = "thomas.white026@gmail.com",
     comment = c(ORCID = "0000-0002-3976-1734")),
     person("Hugo", "Gruson", role = "aut",
