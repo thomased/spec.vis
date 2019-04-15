@@ -5,7 +5,7 @@
 [![Coverage status](https://codecov.io/gh/thomased/spectra.visual/branch/master/graph/badge.svg)](https://codecov.io/github/thomased/spectra.visual?branch=master)
 [![cran downloads](https://cranlogs.r-pkg.org/badges/grand-total/spectra.visual)](https://cran.r-project.org/package=spectra.visual/)
 
-## Photoreceptor absorbance and ocular transmission spectra and metadata
+## Spectral sensitivity data package
 
 `spectra.visual` is a a database of receptor absorbance and ocular transmission spectra and metadata, useful for visual/colorspace modelling among other things.
 
