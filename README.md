@@ -15,10 +15,10 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/spectra.visual)](https:
 
 ## Spectral sensitivity data package
 
-`spectra.visual` is a a database of receptor absorbance and ocular
-transmission spectra and metadata, useful for visual/colorspace
-modelling among other things. It currently contains **283 spectra** from
-**82 species**.
+`spectra.visual` is a mini-database and R data package of receptor
+absorbance and ocular transmission spectra with metadata, useful for
+visual/colorspace modelling among other things. It currently contains
+**283 spectra** from **82 species**.
 
 ## Installation
 
