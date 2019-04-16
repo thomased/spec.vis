@@ -7,6 +7,7 @@ citation_abbrev,character,abbreviated citation details
 doi,character,doi of the primary publication
 method,character,method used to estimate the spectrum in the original publication
 type,character,"type of spectrum: 'absorbance', 'transmission'"
+trans_media,character,"the media through which transmission spectra are recorded (e.g. ocular - whole eye, lens, oildrop)"
 modelled,boolean,is the spectrum the result of A1 template based modelling from reported lambda-max values?
 filtered,boolean,"does the sensitivity function include any effects of filtering (e.g. by ocular media, if appropriate)?"
 genus,character,genus
