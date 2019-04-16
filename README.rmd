@@ -19,6 +19,10 @@ species <- length(unique(sub("\\..*", "", specvis_meta$spec_name)))
 ## Spectral sensitivity data package
 
 `spectra.visual` is a a database of receptor absorbance and ocular transmission spectra and metadata, useful for visual/colorspace modelling among other things. It currently contains **`r spectra` spectra** from **`r species` species**.
+  
+```{r example, echo=FALSE, fig.align="center", fig.cap="Example spectra available in the package.", out.width = '80%'}
+knitr::include_graphics("READMEeg.png")
+```
 
 ## Installation
 

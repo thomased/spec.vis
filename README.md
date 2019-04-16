@@ -17,8 +17,10 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/spectra.visual)](https:
 
 `spectra.visual` is a a database of receptor absorbance and ocular
 transmission spectra and metadata, useful for visual/colorspace
-modelling among other things. It currently contains **280 spectra** from
-**81 species**.
+modelling among other things. It currently contains **283 spectra** from
+**82 species**.
+
+<img src="READMEeg.png" title="Example spectra available in the package." alt="Example spectra available in the package." width="80%" style="display: block; margin: auto;" />
 
 ## Installation
 
