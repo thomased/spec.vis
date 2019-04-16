@@ -11,10 +11,13 @@
 #' @keywords internal
 #'
 specvis_rebuild <- function() {
+
+  # Load raw data
   specvis_meta <- read.csv("data-raw/specvis_meta.csv", stringsAsFactors = FALSE, check.names = FALSE)
   specvis_spectra <- read.csv("data-raw/specvis_spectra.csv", stringsAsFactors = FALSE, check.names = FALSE)
   specvis_dict <- read.csv("data-raw/specvis_dict.csv", stringsAsFactors = FALSE, check.names = FALSE)
 
+  # Save & compress data
   save(specvis_meta, file = "data/specvis_meta.rda", compress = "xz")
   save(specvis_spectra, file = "data/specvis_spectra.rda", compress = "xz")
   save(specvis_dict, file = "data/specvis_dict.rda", compress = "xz")
