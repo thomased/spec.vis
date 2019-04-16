@@ -18,7 +18,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/spec.vis)](https://cran
 `spec.vis` is a mini-database and R data package of receptor absorbance
 and ocular transmission spectra with metadata, useful for
 visual/colorspace modelling among other things. It currently contains
-**283 spectra** from **82 species**.
+**408 spectra** from **118 species**.
 
 ## Installation
 

@@ -5,6 +5,7 @@ test_that("data structure and integrity", {
   # Data
   data(specvis_spectra)
   data(specvis_meta)
+  data(specvis_dict)
 
   # Structure
   expect_true(is.data.frame(specvis_meta))
@@ -14,6 +15,7 @@ test_that("data structure and integrity", {
 
   # Completeness
   expect_equal(names(specvis_spectra[, -1]), specvis_meta$spec_name)
+  expect_equal(specvis_dict$variable, names(specvis_meta))
 
   # Search
   expect_equivalent(specvis_search(genus == 'bombus')['spec_name'],
