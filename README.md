@@ -54,6 +54,10 @@ available data and return a select subset based on search terms
 returning either raw spectra or metadata via the `return.spectra`
 argument.
 
+Finally, if you’re not an `R` person, the ‘database’ boils down to a few
+text files located in the `data.raw/` directory, which you’re free to
+download and use as you please.
+
 ## Example
 
     # Load packages
