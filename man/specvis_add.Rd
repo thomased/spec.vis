@@ -5,10 +5,11 @@
 \title{Add modelled sensitivity data}
 \usage{
 specvis_add(data, lmax, genus, species, citation_abbrev, doi, method,
-  modelled = TRUE, sub = NA, sex = NA, note = NA)
+  modelled = TRUE, filtered = FALSE, sub = NA, sex = NA,
+  note = NA)
 }
 \description{
-Temporary helper function to add modelled sensitivity data to the database. Not for release.
+Temporary helper function while I'm adding modelled sensitivity data to the database. Not for release.
 }
 \author{
 Thomas White \email{thomas.white026@gmail.com}

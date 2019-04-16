@@ -7,7 +7,8 @@ citation_abbrev,character,abbreviated citation details
 doi,character,doi of the primary publication
 method,character,method used to estimate the spectrum in the original publication
 type,character,"type of spectrum: 'absorbance', 'transmission'"
-modelled,boolean,whether the spectrum is the result of template-based modelling
+modelled,boolean,is the spectrum is the result of template-based modelling from reported lambda-max values?
+filtered,boolean,"does the sensitivity function include any effects of filtering (e.g. by ocular media, if appropriate)?"
 genus,character,genus
 species,character,species
 sub,character,subspecies or sub-classification

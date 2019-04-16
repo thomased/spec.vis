@@ -17,6 +17,7 @@
 #'   \item \code{method}:
 #'   \item \code{type}:
 #'   \item \code{modelled}:
+#'   \item \code{filtered}:
 #'   \item \code{genus}:
 #'   \item \code{species}:
 #'   \item \code{sub}:

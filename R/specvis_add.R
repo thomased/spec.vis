@@ -1,6 +1,6 @@
 #' Add modelled sensitivity data
 #'
-#' Temporary helper function to add modelled sensitivity data to the database. Not for release.
+#' Temporary helper function while I'm adding modelled sensitivity data to the database. Not for release.
 #'
 #' @author Thomas White \email{thomas.white026@@gmail.com}
 #'
@@ -10,7 +10,7 @@
 #'
 #' @keywords internal
 #'
-specvis_add <- function(data, lmax, genus, species, citation_abbrev, doi, method, modelled = TRUE, sub = NA, sex = NA, note = NA) {
+specvis_add <- function(data, lmax, genus, species, citation_abbrev, doi, method, modelled = TRUE, filtered = FALSE, sub = NA, sex = NA, note = NA) {
 
   new_meta <- data.frame(
     spec_name = names(data)[2:ncol(data)],
@@ -22,6 +22,7 @@ specvis_add <- function(data, lmax, genus, species, citation_abbrev, doi, method
     method = method,
     type = "absorbance",
     modelled = modelled,
+    filtered = filtered,
     genus = genus,
     species = species,
     sub = sub,
