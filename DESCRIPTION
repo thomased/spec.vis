@@ -1,4 +1,4 @@
-Package: spectra.visual
+Package: spec.vis
 Type: Package
 Title: A Spectral Sensitivity and Ocular Transmission Database
 Description: A database of photoreceptor absorbance and ocular transmission spectra and their associated metadata.
@@ -18,8 +18,8 @@ License: GPL (>= 2)
 LazyData: FALSE
 Encoding: UTF-8
 RoxygenNote: 6.1.1
-URL: https://github.com/thomased/spectra.visual/
-BugReports: https://github.com/thomased/spectra.visual/issues
+URL: https://github.com/thomased/spec.vis/
+BugReports: https://github.com/thomased/spec.vis/issues
 Depends:
   R (>= 3.2.0)
 Imports:

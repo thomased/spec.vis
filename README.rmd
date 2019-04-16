@@ -3,32 +3,32 @@ output: github_document
 ---
 
 ```{r include = FALSE}
-library(spectra.visual)
+library(spec.vis)
 data("specvis_meta")
 spectra <- nrow(specvis_meta)
 species <- length(unique(sub("\\..*", "", specvis_meta$spec_name)))
 ```
 
-# `spectra.visual`
+# `spec.vis`
 
-[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) [![cran version](https://www.r-pkg.org/badges/version-ago/spectra.visual)](https://cran.r-project.org/package=spectra.visual/)
-[![Build Status](https://travis-ci.org/thomased/spectra.visual.svg?branch=master)](https://travis-ci.org/thomased/spectra.visual/)
-[![Coverage status](https://codecov.io/gh/thomased/spectra.visual/branch/master/graph/badge.svg)](https://codecov.io/github/thomased/spectra.visual?branch=master)
-[![cran downloads](https://cranlogs.r-pkg.org/badges/grand-total/spectra.visual)](https://cran.r-project.org/package=spectra.visual/)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) [![cran version](https://www.r-pkg.org/badges/version-ago/spec.vis)](https://cran.r-project.org/package=spec.vis/)
+[![Build Status](https://travis-ci.org/thomased/spec.vis.svg?branch=master)](https://travis-ci.org/thomased/spec.vis/)
+[![Coverage status](https://codecov.io/gh/thomased/spec.vis/branch/master/graph/badge.svg)](https://codecov.io/github/thomased/spec.vis?branch=master)
+[![cran downloads](https://cranlogs.r-pkg.org/badges/grand-total/spec.vis)](https://cran.r-project.org/package=spec.vis/)
 
 ## Spectral sensitivity data package
 
-`spectra.visual` is a mini-database and R data package of receptor absorbance and ocular transmission spectra with metadata, useful for visual/colorspace modelling among other things. It currently contains **`r spectra` spectra** from **`r species` species**.
+`spec.vis` is a mini-database and R data package of receptor absorbance and ocular transmission spectra with metadata, useful for visual/colorspace modelling among other things. It currently contains **`r spectra` spectra** from **`r species` species**.
 
 ## Installation
 
-To download the development version of `spectra.visual`, you can:
+To download the development version of `spec.vis`, you can:
 
 * use the [`remotes`](https://github.com/r-lib/remotes) package:
 
 ```r
 # install.packages("remotes")
-remotes::install_github("thomased/spectra.visual")
+remotes::install_github("thomased/spec.vis")
 ```
 
 * download files from GitHub and install using `$R CMD INSTALL` or, from within R:
@@ -48,7 +48,7 @@ Finally, if you're not an `R` person, the 'database' boils down to a few text fi
 ## Example
 ```
 # Load packages
-library(spectra.visual)
+library(spec.vis)
 library(pavo)
 
 # Grab some spectra
@@ -71,7 +71,7 @@ knitr::include_graphics("READMEeg.png")
 Contributions of spectra to the package are most welcome. There are a few ways to do so, from most- to least-involved:
 
 - **via pull request**  
-  - Install the `spectra.visual` package in the usual manner.
+  - Install the `spec.vis` package in the usual manner.
   - Fork and clone the package repository.
   - Append your spectra to the `data-raw/specvis_spectra.csv` file, and complete all metadata fields in the `data-raw/specvis_meta.csv` file. Spectra should follow the naming convention `<species>_<genus>.<integer>`, where `<integer>` begins at 1 and proceeds from the shortest- to longest- wavelength sensitive receptor.
   - Run the function `specvis_rebuild()` to rebuild the database (i.e. to save the raw data as `.rda` files.
@@ -84,4 +84,4 @@ Contributions of spectra to the package are most welcome. There are a few ways t
 
 ## Citing
 
-If you find the package useful, please cite the original data source(s)and the `spectra.visual` package (see `citation("spectra.visual")` for the reference).
+If you find the package useful, please cite the original data source(s)and the `spec.vis` package (see `citation("spec.vis")` for the reference).

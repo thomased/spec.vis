@@ -1,6 +1,6 @@
-#' Search the spectra.visual database
+#' Search the spec.vis database
 #'
-#' Search the spectra.visual database.
+#' Search the spec.vis database.
 #'
 #' @importFrom utils data
 #' @importFrom dplyr filter
@@ -32,20 +32,22 @@
 #'
 #' @examples
 #' \dontrun{
-#' 
+#'
 #' # Query the database to see how many spectra from the genus 'bombus'
 #' # are available, and examine their metadata
 #' specvis_search(genus == "bombus")
-#' 
+#'
 #' # Save the corresponding spectra to an object
 #' bombus_vis <- specvis_search(genus == "bombus", return.spectra = TRUE)
 #' }
-#' 
+#'
 #' @author Thomas White \email{thomas.white026@@gmail.com}
 #'
 specvis_search <- function(..., return.spectra = FALSE) {
 
-  # This is a proof-of-concept. Probably a way to do the equivalent without dplyr, which would be ideal.
+  # This is a creappy proof-of-concept.
+  # Needs to be more flexible, fuzzy-matching based in base
+  # e.g. specvis_search("canis"), specvis_search("honeybee"), specvis_search("bee")
 
   spectra <- get(data(specvis_spectra, envir = environment()))
   meta <- get(data(specvis_meta, envir = environment()))

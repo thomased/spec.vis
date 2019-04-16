@@ -2,7 +2,7 @@
 % Please edit documentation in R/specvis_search.R
 \name{specvis_search}
 \alias{specvis_search}
-\title{Search the spectra.visual database}
+\title{Search the spec.vis database}
 \usage{
 specvis_search(..., return.spectra = FALSE)
 }
@@ -33,7 +33,7 @@ A data frame of reflectance spectra from binned in 1 nm intervals
  from 300-700 nm, with the first column containing wavelengths ('wl').
 }
 \description{
-Search the spectra.visual database.
+Search the spec.vis database.
 }
 \examples{
 \dontrun{

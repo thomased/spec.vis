@@ -1,4 +1,4 @@
 library(testthat)
-library(spectra.visual)
+library(spec.vis)
 
-test_check("spectra.visual")
+test_check("spec.vis")

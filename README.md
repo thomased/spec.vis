@@ -1,28 +1,28 @@
 
-# `spectra.visual`
+# `spec.vis`
 
 [![Project Status: WIP – Initial development is in progress, but there
 has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![cran
-version](https://www.r-pkg.org/badges/version-ago/spectra.visual)](https://cran.r-project.org/package=spectra.visual/)
+version](https://www.r-pkg.org/badges/version-ago/spec.vis)](https://cran.r-project.org/package=spec.vis/)
 [![Build
-Status](https://travis-ci.org/thomased/spectra.visual.svg?branch=master)](https://travis-ci.org/thomased/spectra.visual/)
+Status](https://travis-ci.org/thomased/spec.vis.svg?branch=master)](https://travis-ci.org/thomased/spec.vis/)
 [![Coverage
-status](https://codecov.io/gh/thomased/spectra.visual/branch/master/graph/badge.svg)](https://codecov.io/github/thomased/spectra.visual?branch=master)
+status](https://codecov.io/gh/thomased/spec.vis/branch/master/graph/badge.svg)](https://codecov.io/github/thomased/spec.vis?branch=master)
 [![cran
-downloads](https://cranlogs.r-pkg.org/badges/grand-total/spectra.visual)](https://cran.r-project.org/package=spectra.visual/)
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/spec.vis)](https://cran.r-project.org/package=spec.vis/)
 
 ## Spectral sensitivity data package
 
-`spectra.visual` is a mini-database and R data package of receptor
-absorbance and ocular transmission spectra with metadata, useful for
+`spec.vis` is a mini-database and R data package of receptor absorbance
+and ocular transmission spectra with metadata, useful for
 visual/colorspace modelling among other things. It currently contains
 **283 spectra** from **82 species**.
 
 ## Installation
 
-To download the development version of `spectra.visual`, you can:
+To download the development version of `spec.vis`, you can:
 
   - use the [`remotes`](https://github.com/r-lib/remotes) package:
 
@@ -30,7 +30,7 @@ To download the development version of `spectra.visual`, you can:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("thomased/spectra.visual")
+remotes::install_github("thomased/spec.vis")
 ```
 
   - download files from GitHub and install using `$R CMD INSTALL` or,
@@ -61,7 +61,7 @@ download and use as you please.
 ## Example
 
     # Load packages
-    library(spectra.visual)
+    library(spec.vis)
     library(pavo)
     
     # Grab some spectra
@@ -83,7 +83,7 @@ Contributions of spectra to the package are most welcome. There are a
 few ways to do so, from most- to least-involved:
 
   - **via pull request**
-      - Install the `spectra.visual` package in the usual manner.
+      - Install the `spec.vis` package in the usual manner.
       - Fork and clone the package repository.
       - Append your spectra to the `data-raw/specvis_spectra.csv` file,
         and complete all metadata fields in the
@@ -107,5 +107,5 @@ few ways to do so, from most- to least-involved:
 ## Citing
 
 If you find the package useful, please cite the original data
-source(s)and the `spectra.visual` package (see
-`citation("spectra.visual")` for the reference).
+source(s)and the `spec.vis` package (see `citation("spec.vis")` for the
+reference).
