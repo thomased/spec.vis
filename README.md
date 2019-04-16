@@ -20,8 +20,6 @@ transmission spectra and metadata, useful for visual/colorspace
 modelling among other things. It currently contains **283 spectra** from
 **82 species**.
 
-<img src="READMEeg.png" title="Example spectra available in the package." alt="Example spectra available in the package." width="80%" style="display: block; margin: auto;" />
-
 ## Installation
 
 To download the development version of `spectra.visual`, you can:
@@ -55,6 +53,25 @@ available data and return a select subset based on search terms
 (e.g. `specvis_search(genus == 'bombus')`), with the option of
 returning either raw spectra or metadata via the `return.spectra`
 argument.
+
+## Example
+
+    # Load packages
+    library(spectra.visual)
+    library(pavo)
+    
+    # Grab some spectra
+    apis <- specvis_search(genus == 'apis', species == 'mellifera', sex == 'female', return.spectra = TRUE)
+    canis <- specvis_search(genus == 'canis', species == 'familiaris', return.spectra = TRUE)
+    bluetit <- specvis_search(genus == 'cyanistes', species == 'caeruleus', return.spectra = TRUE)
+    
+    # Plot them
+    par(mfrow=c(1,3))
+    plot(as.rspec(canis), main = 'Canis familiaris', ylab = 'Absorbance', xlab = '')
+    plot(as.rspec(apis), ylab = '', main = 'Apis mellifera (f)')
+    plot(as.rspec(bluetit), ylab = '', main = 'Cyanistes caeruleus', xlab = '')
+
+<img src="READMEeg.png" title="Example spectra available in the package." alt="Example spectra available in the package." width="80%" style="display: block; margin: auto;" />
 
 ## Contributing
 

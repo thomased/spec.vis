@@ -19,10 +19,6 @@ species <- length(unique(sub("\\..*", "", specvis_meta$spec_name)))
 ## Spectral sensitivity data package
 
 `spectra.visual` is a a database of receptor absorbance and ocular transmission spectra and metadata, useful for visual/colorspace modelling among other things. It currently contains **`r spectra` spectra** from **`r species` species**.
-  
-```{r example, echo=FALSE, fig.align="center", fig.cap="Example spectra available in the package.", out.width = '80%'}
-knitr::include_graphics("READMEeg.png")
-```
 
 ## Installation
 
@@ -46,6 +42,27 @@ install.packages(path, type = "source", repos = NULL)
 The entire database can be loaded into memory by simply calling `data(specvis_spectra)`, along with the metadata `data(specvis_meta)` and dictionary `data(specvis_dict)`. 
 
 Alternately, the `specvis_search()` function allows you to query the available data and return a select subset based on search terms (e.g. `specvis_search(genus == 'bombus')`), with the option of returning either raw spectra or metadata via the `return.spectra` argument. 
+
+## Example
+```
+# Load packages
+library(spectra.visual)
+library(pavo)
+
+# Grab some spectra
+apis <- specvis_search(genus == 'apis', species == 'mellifera', sex == 'female', return.spectra = TRUE)
+canis <- specvis_search(genus == 'canis', species == 'familiaris', return.spectra = TRUE)
+bluetit <- specvis_search(genus == 'cyanistes', species == 'caeruleus', return.spectra = TRUE)
+
+# Plot them
+par(mfrow=c(1,3))
+plot(as.rspec(canis), main = 'Canis familiaris', ylab = 'Absorbance', xlab = '')
+plot(as.rspec(apis), ylab = '', main = 'Apis mellifera (f)')
+plot(as.rspec(bluetit), ylab = '', main = 'Cyanistes caeruleus', xlab = '')
+```
+```{r example, echo=FALSE, fig.align="center", fig.cap="Example spectra available in the package.", out.width = '80%'}
+knitr::include_graphics("READMEeg.png")
+```
 
 ## Contributing
 
