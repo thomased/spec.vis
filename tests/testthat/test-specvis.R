@@ -14,4 +14,9 @@ test_that("data structure and integrity", {
 
   # Completeness
   expect_equal(names(specvis_spectra[, -1]), specvis_meta$spec_name)
+
+  # Search
+  expect_equivalent(specvis_search(genus == 'bombus')['spec_name'],
+  data.frame(names(specvis_search(genus == 'bombus', return.spectra = TRUE)[,-1]), stringsAsFactors = FALSE))
+
 })
