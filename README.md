@@ -61,7 +61,7 @@ argument.
     library(pavo)
     
     # Grab some spectra
-    apis <- specvis_search(genus == 'apis', species == 'mellifera', sex == 'female', return.spectra = TRUE)
+    apis <- specvis_search(genus == 'apis', species == 'mellifera', return.spectra = TRUE)
     canis <- specvis_search(genus == 'canis', species == 'familiaris', return.spectra = TRUE)
     bluetit <- specvis_search(genus == 'cyanistes', species == 'caeruleus', return.spectra = TRUE)
     
