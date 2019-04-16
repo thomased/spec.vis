@@ -44,7 +44,7 @@ Contributions of spectra to the package are most welcome. There are a few ways t
   - Commit and push your changes, and submit a pull request.
 -  **via email, v1**  
     - Take a look at the structure of the package's spectral data (`data(specvis_spectra)`) and metadata (`data(specvis_meta)`).
-    - [Email me](mailto:thomas.white@sydney.edu.au) your data in as similar a format as possible.
+    - [Email me](mailto:thomas.white@sydney.edu.au) your data in as similar a format as possible (but I'll take anything).
 - **via email, v2**  
     - [Email me](mailto:thomas.white@sydney.edu.au) a paper containing data that you'd like added (containing either lambda-max values or plotted absorbance curves, at a minimum). 
 
