@@ -1,17 +1,24 @@
 variable,type,description
 spec_name,character,unique spectrum ID
+spec_type,character,type of spectrum; absorbance or transmittance
+trans_media,character,"the media through which spectra were recorded, for transmission only (e.g. ocular, lens, oildrop)"
+modelled,boolean,"is the spectrum the result of template-based modelling, when only lambda-max values are available?"
+filtered,boolean,"does the sensitivity function include any effects of filtering (e.g. by ocular media), if appropriate?"
 lmax,numeric,wavelength of peak absorbance
-contributor,character,name of the contributor of the spectrum
-contributor_email,character,email address of the contributor of the spectrum
-citation_abbrev,character,abbreviated citation details
-doi,character,doi of the primary publication
-method,character,method used to estimate the spectrum in the original publication
-type,character,"type of spectrum: 'absorbance', 'transmission'"
-trans_media,character,"the media through which transmission spectra are recorded (e.g. ocular - whole eye, lens, oildrop)"
-modelled,boolean,is the spectrum the result of A1 template based modelling from reported lambda-max values?
-filtered,boolean,"does the sensitivity function include any effects of filtering (e.g. by ocular media, if appropriate)?"
+lmax_doi,character,doi of the publication reporting lmax
+lmax_method,character,method used to estimate lmax
+n,numeric,relative density of the receptor in the retina
+n_doi,character,doi of the publication reporting n
+e_chromatic,numeric,estimated noise in the receptor
+e_doi,character,doi of the publication reporting e values
+mra,numeric,minimum resolvable angle (spatial acuity)
+mra_doi,character,doi of the publication reporting mra
+cff,numeric,critical flicker-fusion rate (temporal acuity)
+cff_doi,character,doi of the publication reporting cff
 genus,character,genus
 species,character,species
 sub,character,subspecies or sub-classification
 sex,character,sex
+contributor,character,name of the contributor of the spectrum
+contributor_email,character,email address of the contributor of the spectrum
 note,character,miscelaneous notes
